@@ -1,0 +1,248 @@
+/*reseteando valores*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, html{
+    font-size: 62.5%;
+    font-family: 'Arial', sans-serif;
+}
+header{
+    display: flex;
+    height: 8vh;
+}
+.nav {
+    background-color: #041E4B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 50px;
+    position: fixed;
+    top: 0;
+    height: 8vh;
+    width: 100%;
+    z-index: 1000;
+}
+.nav .info{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.info .name{
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+}
+.info .profession{
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+}
+.nav-list{
+    font-size: 1.5rem;
+    display: flex;
+    list-style: none;
+    height: 100%;
+    width: auto;
+    gap: 20px;
+}
+.nav-item {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+.nav-item a{
+    display: flex;
+    text-decoration: none;
+    height: 100%;
+    align-items: center;
+    padding: 10px;
+    color: #ffffff;
+}
+.nav-item a:hover{
+    color: #EA7317;
+}
+/*estilos hero*/   
+.hero__imagen{
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.6)),
+        url(./imagenes/hero.jpg) center/cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    position: relative;
+}
+h1{
+    color: #ffffff;
+}
+.informacion{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #ffffff;
+    font-size: 2rem;
+    max-width: 1000px;
+}
+
+.btn-contact{
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #5E83A5;
+    color:white;
+    border: 1px solid white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    box-shadow: 1px 1px 3px white;
+}
+.btn-contact:hover {
+    background-color:rgb(9, 25, 50);
+}
+/*seccion acerca de nosotros*/
+#about-us{
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;     /* Centrado vertical */
+    font-size: 2rem;
+    min-height: 30vh;
+    gap: 60px;
+    text-align: justify;
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color:#041E4B ;
+}
+#about-us .subtitles-sections{
+    display: flex;
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    right: 15px;
+}
+
+#about-us p{
+    color: #ffffff;
+}
+/*seccion servicios*/
+#services{
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+    font-size: 2rem;
+    padding: 30px;
+}
+.cards-container {
+    display: flex;
+    gap:50px;
+    justify-content: center;
+    
+}
+
+.subtitles-sections{
+   padding: 20px;
+
+
+}
+
+.card{
+    width: 300px;
+    height: 200px;
+    padding: 28px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+ h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+}
+
+h3{
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+
+#contact{
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Centrado vertical */
+    background-color: #041E4B;
+    
+}
+
+h2{
+    color: #ffff;
+}
+   #contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 500px;
+    width: 100%;
+    padding: 30px;
+    margin: 0 auto; /* Centrado horizontal */
+    
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+   }
+
+   /* Botón flotante de WhatsApp */
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .whatsapp-float:hover {
+    transform: scale(1.1);
+  }
+  
+footer {
+    background-color: #F4F2F3;
+    padding: 10px;
+    text-align: right;
+    padding: 1.5rem;
+    }
+
+    .texto{
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    }
