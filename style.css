@@ -195,14 +195,18 @@ header{
 .card .boton{
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #244174;   
+    color: #244174;
+    font-weight: 800;   
 }
 .card .texto-services{
     display: flex;
     opacity: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 0px 30px 30px;
     text-align: center;  
+    font-size: 1.8rem;
+    transition: opacity .9s ease-in-out;
+    color: #162d7e;
 }
 .card .texto-services.active{
     opacity: 1;
