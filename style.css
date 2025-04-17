@@ -64,7 +64,7 @@ header{
     color: #ffffff;
 }
 .nav-item a:hover{
-    color: #EA7317;
+    color: rgba(255, 255, 255, 0.709);
 }
 /*estilos hero*/   
 .hero__imagen{
@@ -77,9 +77,6 @@ header{
     align-items: center;
     font-family: sans-serif;
     position: relative;
-}
-h1{
-    color: #ffffff;
 }
 .informacion{
     display: flex;
@@ -109,7 +106,7 @@ h1{
 }
 /*seccion acerca de nosotros*/
 .container-about{
-    background-color:#041E4B ;
+    background-color:#1e2749 ;
 }
 #about-us{
     display: flex;
@@ -141,13 +138,18 @@ h1{
 #services{
     display: flex;
     flex-direction: column;
-    min-height: 60vh;
     font-size: 2rem;
-    padding: 30px;
+    padding: 60px;
     justify-content: center;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 #services .subtitles-sections{
     margin: 0 auto;
+    margin-bottom: 40px;
+    font-size: 3.5rem;
+    font-family: Poppins;
+    font-weight:400;
 }
 .cards-container {
     display: flex;
@@ -159,37 +161,34 @@ h1{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 20px;
-    width: 300px;
-    height: 300px;
-    padding: 28px;
+    width: 500px;
+    /* height: 300px; */
+    /* padding: 28px; */
     border: 1px solid #000;
     border-radius: 10px;
     transition: transform 0.3s;
-    background-color: #0f1f38f3;
-    color: whitesmoke;
     transition: transform 0.4s ease;
 }
-.card:hover{
+/* .card:hover{
     transform: scale(1.02);
     box-shadow: 1px 1px 3px rgb(3, 3, 82);
-}
+} */
 .card img{
-    height: 80px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 7px solid #244174;
+    /* height: 80px; */
 }
-#services .subtitles-sections{
-   padding: 20px;
-   color: #000;
-   font-size: 3.5rem;
-}
+
 #contact{
     padding: 30px;
     justify-content: center;
     align-items: center;
     min-height: 100vh; /* Centrado vertical */
-    background-color: #041E4B;
-    
+    /* background-color:#244174 ; */
+    background-color: #1e2749;
 }
 
 #contact h2{
