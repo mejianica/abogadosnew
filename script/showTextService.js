@@ -1,7 +1,8 @@
+let btns = document.querySelectorAll('.boton');
 
-let btn = document.querySelector('.boton');
-let texto = document.querySelector('.texto-services');
-
-btn.addEventListener("click", () => {
-    texto.classList.toggle("active");
+btns.forEach(btn => {
+    btn.addEventListener("click", () => {
+        let texto = btn.nextElementSibling;
+        texto.classList.toggle('active');
+    });
 });

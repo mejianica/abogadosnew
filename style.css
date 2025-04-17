@@ -204,6 +204,9 @@ header{
     padding: 0px 30px 30px;
     text-align: center;  
 }
+.card .texto-services.active{
+    opacity: 1;
+}
 
 #contact{
     padding: 30px;
