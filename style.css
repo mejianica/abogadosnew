@@ -184,6 +184,18 @@ header{
     /* height: 80px; */
 }
 
+.card details summary{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #244174;   
+}
+.card details p{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    text-align: center;  
+}
+
 #contact{
     padding: 30px;
     justify-content: center;
