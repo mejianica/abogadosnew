@@ -129,6 +129,8 @@ header{
     right: 15px;
     font-size: 3.5rem;
     color: whitesmoke;
+    font-family: Poppins;
+    font-weight:400;
 }
 
 #about-us p{
@@ -194,6 +196,8 @@ header{
 #contact h2{
     font-size: 3.5rem;
     color: #ffff;
+    font-family: Poppins;
+    font-weight:400;
 }
    #contact-form{
     display: flex;
