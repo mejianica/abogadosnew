@@ -131,6 +131,7 @@ h1{
     position: relative;
     right: 15px;
     font-size: 3.5rem;
+    color: whitesmoke;
 }
 
 #about-us p{
@@ -140,49 +141,48 @@ h1{
 #services{
     display: flex;
     flex-direction: column;
-    min-height: 80vh;
+    min-height: 60vh;
     font-size: 2rem;
     padding: 30px;
+    justify-content: center;
+}
+#services .subtitles-sections{
+    margin: 0 auto;
 }
 .cards-container {
     display: flex;
     gap:50px;
     justify-content: center;   
 }
-#services .subtitles-sections{
-   padding: 20px;
-   color: #000;
-}
-
 .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
     width: 300px;
-    height: 200px;
+    height: 300px;
     padding: 28px;
     border: 1px solid #000;
     border-radius: 10px;
     transition: transform 0.3s;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-color: #0f1f38f3;
+    color: whitesmoke;
+    transition: transform 0.4s ease;
 }
-
-
-
- h2 {
-    text-align: center;
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
-    color: rgb(0, 0, 0);
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: 1px 1px 3px rgb(3, 3, 82);
 }
-
-h3{
-    text-align: center;
-    padding: 10px;
-    margin: auto;
+.card img{
+    height: 80px;
 }
-
+#services .subtitles-sections{
+   padding: 20px;
+   color: #000;
+   font-size: 3.5rem;
+}
 #contact{
     padding: 30px;
     justify-content: center;
@@ -192,7 +192,8 @@ h3{
     
 }
 
-h2{
+#contact h2{
+    font-size: 3.5rem;
     color: #ffff;
 }
    #contact-form{
@@ -247,3 +248,5 @@ footer {
     font-family: sans-serif;
     font-size: 1.5rem;
     }
+
+    
