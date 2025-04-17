@@ -108,6 +108,9 @@ h1{
     background-color:rgb(9, 25, 50);
 }
 /*seccion acerca de nosotros*/
+.container-about{
+    background-color:#041E4B ;
+}
 #about-us{
     display: flex;
     justify-content: center; /* Centrado horizontal */
@@ -118,7 +121,6 @@ h1{
     text-align: justify;
     max-width: 1500px;
     margin: 0 auto;
-    background-color:#041E4B ;
     padding: 50px;
 }
 #about-us .subtitles-sections{
