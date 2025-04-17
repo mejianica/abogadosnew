@@ -66,6 +66,15 @@ header{
 .nav-item a:hover{
     color: rgba(255, 255, 255, 0.709);
 }
+@media (max-width: 768px) {
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #002244;
+        margin-top: 1rem;
+    }
+}
 /*estilos hero*/   
 .hero__imagen{
     background: 
