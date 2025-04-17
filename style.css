@@ -32,7 +32,7 @@ header{
 }
 .info .name{
     text-transform: uppercase;
-    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    color: #ffffff;
     font-family:'Times New Roman', Times, serif;
 }
 .info .profession{
@@ -119,6 +119,7 @@ h1{
     max-width: 1500px;
     margin: 0 auto;
     background-color:#041E4B ;
+    padding: 50px;
 }
 #about-us .subtitles-sections{
     display: flex;
@@ -127,6 +128,7 @@ h1{
     justify-content: center;
     position: relative;
     right: 15px;
+    font-size: 3.5rem;
 }
 
 #about-us p{
