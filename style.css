@@ -31,6 +31,7 @@ body, html{
 
 }
 .container .info .profession{
+  color: #E56A48;
   font-size: clamp(.5rem,3.8vw, 1.5rem);
 }
 
@@ -52,7 +53,7 @@ body, html{
 }
 
 .nav-links a:hover {
-    border-bottom:1px solid #ffff;
+    border-bottom:1px solid #E56A48;
 }
 
 /* MENÚ HAMBURGUESA */
@@ -146,12 +147,14 @@ body, html{
     color: #ffffff;
     font-size: 2rem;
     max-width: 1000px;
+    position: relative;
+    padding: 100px 0;
 }
 
 .btn-contact{
     display: inline-block;
     padding: 15px 40px;
-    background-color: #5E83A5;
+    background-color: #E56A48;
     color:white;
     border: 1px solid white;
     text-decoration: none;
@@ -167,10 +170,12 @@ body, html{
 }
 
 #hero__imagen img{
-  width: 250px;
+  width: 140px;
   border-radius: 50%;
-  margin-left: 80%;
-  border: 2px solid #5E83A5; 
+  position: absolute;
+  right: 0;
+  top: 60%;
+  border: 2px solid #E56A48; 
   box-shadow: 0 0 10px rgba(0,0,0,0.3); 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -260,7 +265,7 @@ body, html{
 .card .boton{
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #244174;
+    color: #E56A48;
     font-weight: 800;   
 }
 .card .texto-services{
@@ -277,30 +282,59 @@ body, html{
     opacity: 1;
 }
 /*Seccion contacto*/
+.container-contact{
+  background-color: #f9f9f9;
+}
 #contact{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 30px;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: #1e2749;
     gap: 50px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+#contact .details{
+  display: flex;
+  flex-direction: column;
+ font-size: 3rem;
+ gap: 30px;
+ color: #000;
+ /* background-color: #25D366; */
+}
+#contact .details p{
+ font-size: 2.2rem;
+ color: gray;
+}
+#contact .details .follow{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#contact .details .img-links img{
+  height: 30px;
+  border-radius: 50%;
 }
 
 #contact h2{
     font-size: 3.5rem;
-    color: #ffff;
     font-family: Poppins;
     font-weight:400;
 }
 /* From Uiverse.io by Yaya12085 */ 
 #contact .form-container {
-    width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    width: 600px;
     height: 400px;
     border-radius: 0.75rem;
-    background-color: rgb(250, 250, 250);
+    background-color:#041E4B;
     padding: 2rem;
     color: rgba(243, 244, 246, 1);
+    
   }
   
   .title {
@@ -308,7 +342,7 @@ body, html{
     font-size: 2.8rem;
     line-height: 2rem;
     font-weight: 700;
-    color: #000;
+    color: whitesmoke;
   }
   
   .form {
@@ -323,7 +357,7 @@ body, html{
   
   .input-group label {
     display: block;
-    color:#000;
+    color:whitesmoke;
     margin-bottom: 4px;
   }
   
@@ -332,9 +366,9 @@ body, html{
     border-radius: 0.375rem;
     border: 1px solid rgba(55, 65, 81, 1);
     outline: 0;
-    background-color:#244174;
+    /* background-color:#244174; */
     padding: 0.75rem 1rem;
-    color: rgb(246, 243, 245);
+    background-color: #ffffff;
   }
   
   .input-group input:focus {
@@ -363,13 +397,13 @@ body, html{
   .sign {
     display: block;
     width: 100%;
-    color: #162d7e;
     padding: 0.75rem;
     text-align: center;
-    color: rgba(17, 24, 39, 1);
+    color: whitesmoke;
     border: none;
     border-radius: 0.375rem;
     font-weight: 600;
+    background-color:#E56A48;
   }
   
   .social-message {
@@ -418,7 +452,11 @@ body, html{
     color: rgba(156, 163, 175, 1);
   }
   .input-group textarea{
+    margin: 10px 0;
     width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 1.5rem;
   }
    /* Botón flotante de WhatsApp */
 .whatsapp-float {
