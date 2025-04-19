@@ -1,4 +1,4 @@
-let ver = document.querySelector(".texto");
+let ver = document.querySelector("#texto");
 ver.addEventListener("mouseover",cambiaraorangered);
 
 function cambiaraorangered() {
