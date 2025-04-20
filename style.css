@@ -310,13 +310,15 @@ body, html{
     gap: 50px;
     max-width: 1500px;
     margin: 0 auto;
+    padding: 100px 0;
+    flex-wrap: wrap;
 }
 #contact .details{
   display: flex;
   flex-direction: column;
  font-size: 3rem;
  gap: 30px;
- color: #000;
+ color: rgb(71, 71, 71);
  /* background-color: #25D366; */
 }
 #contact .details p{
@@ -330,8 +332,7 @@ body, html{
 }
 
 #contact .details .img-links img{
-  height: 30px;
-  border-radius: 50%;
+  height: 40px;
 }
 
 #contact h2{
@@ -525,7 +526,7 @@ body, html{
     width: 30px;
     height: 30px;
     cursor: pointer;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     transition: transform 0.3s ease;
 }
 
