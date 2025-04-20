@@ -183,6 +183,68 @@ body, html{
   transform: rotate(360deg);
   transition: transform 1s ease-in-out;
 }
+/* Sección frase */
+#phrase {
+  display: flex;
+  flex-wrap: wrap; /* Asegura que se acomode en columnas si no cabe en una sola línea */
+  max-width: 1500px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+  padding: 100px 20px;
+  gap: 40px;
+}
+
+/* Texto */
+#phrase .txt-container {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  gap: 30px;
+  border-bottom: 2px solid #E56A48;
+  min-width: 280px;
+}
+#phrase .txt-container h2{
+  font-size: 3rem;
+  font-family: Poppins;
+  font-weight: 400;
+  color: #1B2431;
+}
+#phrase .txt-container .border{
+  width: 30px;
+  height: 5px;
+  margin-top: 20px;
+  background-color: #041E4B;
+}
+/* Frase */
+#phrase .txt-container #phrase-text {
+  text-align: left;
+  color: gray;
+  font-size: 2rem;
+}
+
+/* Autor */
+#phrase .txt-container #author {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #555;
+}
+
+/* Imagen */
+#phrase .phrase-img {
+  display: flex;
+  width: 48%;
+  min-width: 280px;
+  justify-content: center;
+}
+
+#phrase .phrase-img img {
+  height: 300px;
+  border-radius: 30px 10px;
+  box-shadow: 1px 1px 10px gray;
+  
+}
+
 /*seccion acerca de nosotros*/
 .container-about{
     background-color:#1e2749 ;
@@ -231,6 +293,7 @@ body, html{
     font-size: 3.5rem;
     font-family: Poppins;
     font-weight:400;
+    color: #1b312a;
 }
 .cards-container {
     display: flex;
@@ -265,7 +328,9 @@ body, html{
 .card .boton{
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #E56A48;
+    color: whitesmoke;
+    padding: 5px;
+    background-color: #E56A48;
     font-weight: 800;   
 }
 .card .texto-services{
