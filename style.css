@@ -199,13 +199,14 @@ body, html{
     display: flex;
     justify-content: center; /* Centrado horizontal */
     align-items: center;     /* Centrado vertical */
+    flex-direction: column;
     font-size: 2rem;
     min-height: 30vh;
     gap: 60px;
     text-align: justify;
     max-width: 1500px;
     margin: 0 auto;
-    padding: 150px 0;
+    padding: 150px;
 }
 #about-us .subtitles-sections{
     display: flex;
@@ -224,6 +225,10 @@ body, html{
   display: flex;
   color:#1B312A;
   line-height: 30px;
+}
+#about-us img{
+  height: 350px;
+  filter: drop-shadow(10px 1px 1px #d6dadf);
 }
 /*seccion servicios*/
 #services{
