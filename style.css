@@ -84,7 +84,7 @@ body, html{
     align-items: center;
     font-family: sans-serif;
     position: relative;
-    top: 7vh;
+    margin-top: 7vh;
 }
 .informacion{
     display: flex;
