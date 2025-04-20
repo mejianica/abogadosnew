@@ -241,6 +241,7 @@ body, html{
     justify-content: center;
     max-width: 1500px;
     margin: 0 auto;
+    gap: 30px;
 }
 #services .subtitles-sections{
     margin: 0 auto;
@@ -272,10 +273,10 @@ body, html{
     font-weight: 100;
     font-family: 'Times New Roman', Times, serif;
 }
-/* .card:hover{
+.card:hover{
     transform: scale(1.02);
-    box-shadow: 1px 1px 3px rgb(3, 3, 82);
-} */
+    box-shadow: 1px 1px 10px rgb(11, 7, 43);
+}
 .card img{
     width: 100%;
     border-bottom: 7px solid #244174;
