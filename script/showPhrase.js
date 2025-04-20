@@ -13,7 +13,6 @@ const frases = [
     "No hay mayor justicia que defender lo que es justo, aunque el precio sea alto.",
     "El derecho de una persona a ser escuchada es el primer paso hacia la justicia."
 ];
-
 // Array de autores correspondientes
 const autores = [
     "Domingo de Soto",
@@ -33,8 +32,5 @@ function fraseAleatoria(){
     return indiceAleatorio;
 }
  let i = fraseAleatoria();
- console.log(i);
- 
-
 parrafo.textContent = frases[i];
 autor.textContent = autores[i];
